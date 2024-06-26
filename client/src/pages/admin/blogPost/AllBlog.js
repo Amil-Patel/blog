@@ -202,7 +202,7 @@ const AllBlog = () => {
                 {rows.length > 0 ? (
                   rows.map((e, idx) => {
                     let flag = 0;
-
+                    
                     return (
                       <>
                         <tr

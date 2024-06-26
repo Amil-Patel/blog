@@ -9,7 +9,7 @@ const Categories = () => {
           <div id="four-piller-outside">
             <div id="four-piller-img">
               <img
-                src={require("../../assets/image/piller.png")}
+                src={"./image/piller.png"}
                 alt="islamic-salah"
                 width="25%"
               ></img>
@@ -27,7 +27,7 @@ const Categories = () => {
           <div id="four-piller-outside">
             <div id="four-piller-img">
               <img
-                src={require("../../assets/image/piller.png")}
+                src={"./image/piller.png"}
                 alt="islamic-salah"
                 width="25%"
               ></img>
@@ -46,7 +46,7 @@ const Categories = () => {
           <div id="four-piller-outside">
             <div id="four-piller-img">
               <img
-                src={require("../../assets/image/piller.png")}
+                src={"./image/piller.png"}
                 alt="islamic-salah"
                 width="25%"
               ></img>
@@ -64,7 +64,7 @@ const Categories = () => {
           <div id="four-piller-outside">
             <div id="four-piller-img">
               <img
-                src={require("../../assets/image/piller.png")}
+                src={"./image/piller.png"}
                 alt="islamic-salah"
                 width="25%"
               ></img>

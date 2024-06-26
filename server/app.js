@@ -24,7 +24,9 @@ app.use(bodyParser.json({ limit: "50mb" }));
 
 // blog post routes
 app.use(router);
-
+app.get("/", (req, res) => {
+  res.send("Hello Server")
+})
 // blog category routes
 app.use("/", blogCategory_route);
 

@@ -199,7 +199,7 @@ const AllTrashBook = () => {
                           <td className="pb-3 pt-1">
                             {e.book_pdf != "" ? (
                               <img
-                                src={require(`../../../assets/image/pdf2.webp`)}
+                                src={'./image/pdf2.webp'}
                                 height="50px"
                                 width="50px"
                                 alt="book_pdf"

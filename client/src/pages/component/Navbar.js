@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../../assets/css/Navbar.css";
 import { NavLink, useNavigate } from "react-router-dom";
-import { Logo } from "../../assets/constant/Images";
 import axios from "axios";
 const PORT = process.env.REACT_APP_URL;
 
@@ -24,8 +23,8 @@ const Navbar = () => {
     }
   };
   useEffect(() => {
-    if (searchQuery.length > 4 && searchQuery.trim() !== "") {
-      setSearchQuery(searchQuery.trim());
+    if (searchQuery.length > 4 && searchQuery !== "") {
+      setSearchQuery(searchQuery);
       fetchData();
     }
     if (searchQuery.length == 0) {
@@ -43,19 +42,12 @@ const Navbar = () => {
     <>
       <div className="header-topbar-main" dir="ltr">
         <div className="header-topbar-sections">
-          <NavLink to="tel:9974241074">
-            <i
-              className="fa-solid fa-phone me-2"
-              style={{ marginRight: "15px" }}
-            ></i>
-            <span>Phone: 99742 41074</span>
-          </NavLink>
-          <NavLink to="mailto:  id.m.m.nandoliya@gmail.com ">
+          <NavLink to="mailto: m.m.nandoliya@gmail.com">
             <i
               className="fa-solid fa-envelope me-2"
               style={{ marginRight: "15px" }}
             ></i>
-            <span>Email: nandoliya@gmail.com </span>
+            <span> nandoliya@gmail.com </span>
           </NavLink>
         </div>
         <div className="header-topbar-sections">
@@ -101,16 +93,13 @@ const Navbar = () => {
 
       <div id="Navbar_container" dir="ltr">
         <NavLink to="/">
-          <img src={Logo} alt="Logo" width="140px" height="auto" />
+          <img
+            src={"./image/logo.png"}
+            alt="Logo"
+            width="130px"
+            height="auto"
+          />
         </NavLink>
-        <div id="navbar_number_email_icon">
-          <NavLink to="tel:9974241074">
-            <i className="fa-solid fa-phone"></i>
-          </NavLink>
-          <NavLink to="mailto: ahmadpadarwala4@gmail.com">
-            <i className="fa-solid fa-envelope"></i>
-          </NavLink>
-        </div>
         <div
           id="navbar_menu"
           className={isMenuOpen ? "navbar-menu open" : "navbar-menu"}

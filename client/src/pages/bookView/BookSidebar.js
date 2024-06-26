@@ -33,7 +33,7 @@ function BookSidebar() {
       <div className="view_news_main_section-sidebar">
         <div className="view_sidebar_img">
           <img
-            src={require("../../assets/image/adverti-image-veiw-news-page.jpg")}
+            src={"./image/adverti-image-veiw-news-page.jpg"}
             alt="advertisenment-img"
           />
         </div>
@@ -62,7 +62,7 @@ function BookSidebar() {
               >
                 <div className="w-1/3">
                   <img
-                    src={`../../upload/book/${books.book_thumbnail}`}
+                    src={`./upload/book/${books.book_thumbnail}`}
                     alt="book_thumbnail"
                   />
                 </div>

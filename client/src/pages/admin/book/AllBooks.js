@@ -199,7 +199,7 @@ const AllBooks = () => {
                           <td className="pb-3 pt-1">
                             {e.book_pdf != "" ? (
                               <img
-                                src={require(`../../../assets/image/pdf.png`)}
+                                src={'./image/pdf.png'}
                                 style={{ height: "50px", width: "50px" }}
                               />
                             ) : (

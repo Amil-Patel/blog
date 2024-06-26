@@ -60,7 +60,7 @@ const ViewNews = () => {
           <div className="view_news_main_section">
             <div className="view_news_image">
               <img
-                src={`../upload/blog/${viewNews.blog_image}`}
+                src={`./upload/blog/${viewNews.blog_image}`}
                 alt="news"
                 className="w-full"
               />

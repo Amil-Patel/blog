@@ -33,7 +33,7 @@ function BookView() {
     try {
       const res = await axios.get(`${PORT}getbookviewdetail/${bookId}`);
       setViewBook(res.data[0]);
-      setPdfUrl(`../upload/book/${res.data[0].book_pdf}`);
+      setPdfUrl(`./upload/book/${res.data[0].book_pdf}`);
       setLoading(false);
     } catch (error) {
       console.error(error);
@@ -89,7 +89,7 @@ function BookView() {
                   </div>
                   <div className="details-content flex flex-col mt-2">
                     <img
-                      src={`../../upload/book/${viewBook.book_thumbnail}`}
+                      src={`./upload/book/${viewBook.book_thumbnail}`}
                       alt="book_thumbnail"
                     />
 

@@ -37,7 +37,7 @@ const NewsSidebar = () => {
       <div className="view_news_main_section-sidebar">
         <div className="view_sidebar_img">
           <img
-            src={require("../../assets/image/adverti-image-veiw-news-page.jpg")}
+            src={"./image/adverti-image-veiw-news-page.jpg"}
             alt="adverisenment-img"
           />
         </div>
@@ -64,7 +64,7 @@ const NewsSidebar = () => {
               }}
             >
               <div className="w-4/12 newsidebar_img mt-5">
-                <img src={`/upload/blog/${post.blog_image}`} alt="blog_img" />
+                <img src={`./upload/blog/${post.blog_image}`} alt="blog_img" />
               </div>
 
               <div className="w-8/12 ">

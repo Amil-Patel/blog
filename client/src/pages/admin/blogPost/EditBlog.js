@@ -391,7 +391,7 @@ const EditBlog = () => {
               <div>
                 <label className="px-3">Old Image</label>
                 <img
-                  src={`../upload/blog/${blogImage}`}
+                  src={`./upload/blog/${blogImage}`}
                   style={{ height: "200px", width: "200px" }}
                 />
               </div>

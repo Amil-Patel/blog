@@ -67,7 +67,7 @@ const Books = () => {
             >
               <div id="books_card_img">
                 <img
-                  src={`../../upload/book/${book.book_thumbnail}`}
+                  src={`./upload/book/${book.book_thumbnail}`}
                   width="40%"
                   alt={book.title}
                 />

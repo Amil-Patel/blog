@@ -8,7 +8,7 @@
   color: #fff;
   margin: auto;
   background-color: var(--primary-color);
-  background-image: url("../image/top_bar_back.png");
+  background-image: url("../../../public/image/top_bar_back.png");
   background-repeat: repeat-x;
   background-position: left, right;
   justify-content: space-around;
@@ -51,16 +51,6 @@
   font-size: 14px;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
-#navbar_number_email_icon i {
-  color: #d1ad3c;
-  font-size: 20px;
-  margin-left: 10px;
-  font-size: 25px;
-  display: none;
-}
-#navbar_number_email_icon a {
-  text-decoration: none;
-}
 
 @media screen and (max-width: 1024px) {
   .toggle-btn {
@@ -70,13 +60,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  #navbar_number_email_icon i {
-    display: inline;
-    padding: 0 5px;
-  }
-  #navbar_number_email_icon {
-    margin: 17px 80px;
-  }
   .navbar_main {
     padding: 0%;
   }
@@ -103,14 +86,7 @@
   .header-topbar-main {
     display: none;
   }
-  #navbar_number_email_icon i {
-    display: inline;
-    padding: 0 5px;
-  }
-  #navbar_number_email_icon {
-    margin: 18px 40px;
-    margin-bottom: 15px;
-  }
+  
 }
 
 @media screen and (max-width: 390px) {
@@ -245,11 +221,6 @@
   .toggle-btn {
     display: block;
     text-align: center;
-  }
-}
-@media screen and (max-width: 320px) {
-  #Navbar_container {
-    justify-content: space-evenly;
   }
 }
 

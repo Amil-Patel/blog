@@ -290,7 +290,7 @@ const EditBook = () => {
                 <div className="mb-4">
                   <label className="px-3">Old Thumnail</label>
                   <img
-                    src={`../upload/book/${previewimg}`}
+                    src={`./upload/book/${previewimg}`}
                     height="150px"
                     width="150px"
                     alt="Book_old"
@@ -319,7 +319,7 @@ const EditBook = () => {
                 <div className="mt-2">
                   <label className="px-3">Old PDF</label>
                   <img
-                    src={require(`../../../assets/image/pdf2.webp`)}
+                    src={"./image/pdf2.webp"}
                     height="100px"
                     width="150px"
                     alt="Book_pdf"
